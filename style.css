@@ -1,0 +1,4 @@
+body{font-family:system-ui,sans-serif;max-width:700px;margin:2rem auto;padding:1rem;background:#f4f8f4}
+.card{background:#fff;padding:1rem;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+input,textarea{width:100%;margin:.3rem 0 1rem;padding:.5rem}button{padding:.7rem 1rem}
+.entry{background:#fff;margin:.5rem 0;padding:.5rem;border-radius:8px}

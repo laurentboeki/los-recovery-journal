@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lo's Recovery Journal</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<h1>🌿 Lo's Recovery Journal</h1>
+<p id="today"></p>
+<div class="card">
+<label>Current prescribed fentanyl dose</label><input id="dose" placeholder="e.g. 400 mcg">
+<label>Pain (0-10)</label><input id="pain" type="number" min="0" max="10">
+<label>Sleep</label><input id="sleep" placeholder="Hours">
+<label>Mood</label><input id="mood">
+<label>Today's Victory</label><textarea id="victory"></textarea>
+<label>Notes</label><textarea id="notes"></textarea>
+<button onclick="save()">Save today's entry</button>
+</div>
+<h2>History</h2>
+<div id="history"></div>
+<script src="app.js"></script>
+</body></html>
